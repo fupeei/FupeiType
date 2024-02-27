@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    background-image: url(940a83ca36e99a92507a32f104966ec2.jpg);
+    background-position: 500px;
+    background-repeat: no-repeat;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+section{
+    background-color: rgba(240, 240, 240, 0.696);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 100px;
+    border: 2px solid white;
+}
+#titulo{
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#cita-random{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+}
+#textoCita{
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    
+
+}
+#temporizador{
+    font-size: 50px;
+    font-family: "Rubik", sans-serif;
+}
+.correcto{
+    color: rgb(61, 206, 61);
+}
+.incorrecto{
+    color: red;
+    text-decoration: underline;
+}
+button{
+    margin-top: 2rem;
+    height: 80px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(215, 215, 215);
+}
