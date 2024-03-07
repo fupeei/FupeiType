@@ -1,13 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 body{
-    background-image: url(940a83ca36e99a92507a32f104966ec2.jpg);
-    background-position: 500px;
+    background-image: url(wallhaven-m3y67m.jpg);
     background-repeat: no-repeat;
-    padding-left: 200px;
-    padding-right: 200px;
+    background-attachment: fixed;
 }
-section{
+.bienvenida{
+    height: 100vh;
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: column;
+}
+.texotBienvenida{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130px;
+    margin: 0px;
+    border: 0px;
+    padding-left: 400px;
+    color: aliceblue;
+    text-shadow: 3px 1px 2px black;
+}
+.game{
     background-color: rgba(240, 240, 240, 0.696);
     border-radius: 30px;
     display: flex;
@@ -15,12 +31,14 @@ section{
     align-items: center;
     margin-top: 2rem;
     padding: 100px;
-    border: 2px solid white;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 #titulo{
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: aliceblue;
 }
 #cita-random{
     font-family: "Rubik", sans-serif;
