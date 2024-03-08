@@ -2,15 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 body{
-    background-image: url(wallhaven-m3y67m.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #e5e5f7;
+    background-image:  linear-gradient(#000000 1px, transparent 1px), linear-gradient(to right, #000000 1px, #e5e5f7 1px);
+    background-size: 20px 20px;
 }
 .bienvenida{
     height: 100vh;
     display: flex;
     margin-top: 5rem;
     flex-direction: column;
+}
+.main{
+    display: flex;
 }
 .texotBienvenida{
     font-family: "Anton", sans-serif;
@@ -20,8 +23,18 @@ body{
     margin: 0px;
     border: 0px;
     padding-left: 400px;
-    color: aliceblue;
-    text-shadow: 3px 1px 2px black;
+    color: rgb(0, 0, 0);
+    height: 150px;
+}
+#velocidad{
+    color: rgb(221, 212, 38);
+}
+.botoncontainer{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    margin-top: 5rem;
+    padding-left: 100px;
 }
 .game{
     background-color: rgba(240, 240, 240, 0.696);
@@ -33,12 +46,13 @@ body{
     padding: 100px;
     margin-left: 300px;
     margin-right: 300px;
+    margin-bottom: 100px;
 }
 #titulo{
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 #cita-random{
     font-family: "Rubik", sans-serif;
@@ -72,5 +86,5 @@ button{
     border-radius: 30px;
     border: none;
     font-size: 20px;
-    background-color: rgb(215, 215, 215);
+    background-color: rgb(221, 212, 38);
 }
