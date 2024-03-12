@@ -4,27 +4,31 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SpeedTyping</title>
 </head>
 <body>
     <nav>
-        <h1 id="titulo">Fupei is typing</h1>
+        <img class="imagennav" src="teclado.png" alt="">
     </nav>
     <section class="main">
-        <div  class="bienvenida">
-            <h1 class="texotBienvenida">Prueba tu</h1>
-            <h1 class="texotBienvenida" id="velocidad">velocidad</h1>
-            <h1 class="texotBienvenida">escribiendo!</h1>
-        </div>
-        <div class="botoncontainer">
-            <button>Jugar</button>
+        <div class="container">
+            <div class="titulo">
+                <h1>Descubre tu velocidad <span class="subrrayar">escribiendo!</span></h1>
+                <p class="descripcion">Prueba tu velocidad escribiendo cronometradamente parrafos aleatorios en inglés. Cuando termines el tiempo se <span class="incorrecto">detendra </span>automaticamente. </p>
+                <a href="#classid"><button class="botoninicio"></button></a>
+            </div>
+            <div class="imgcontainer">
+                <div class="backgroundimg">
+                    <img class="tecla" src="a.png" alt="">
+                </div>
+            </div>
         </div>
     </section>
-    <section class="game">
+    <section class="game" id="classid">
         <div id="temporizador">0</div>
         <p id="cita-random"></p>
         <textarea name="" id="textoCita" cols="50" rows="5"></textarea>
-        <button id="botonReiniciar">Reiniciar</button>
+        <button id="botonReiniciar"></button>
     </section>
     
     <script src="script.js"></script>
